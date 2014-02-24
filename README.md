@@ -92,6 +92,3 @@ Note that you do not have to do anything with the *photoset_ID* field. This valu
 * ```{{url_l}}``` - large 1000px on longest side
 * ```{{url_o}}``` - original image size
 * ```{{geo}}``` - supposedly lat-long location - I haven't tagged mine so I can't say if it works!
-
-
-* 
