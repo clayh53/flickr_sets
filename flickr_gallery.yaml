@@ -1,0 +1,12 @@
+title: 'Flickr gallery'
+
+fields:
+  photoset_ID:
+    display: Flickr Photo Gallery
+    type: flickr_sets
+  _template:
+    display: Template
+    type: templates
+    default: flickr
+    hide: true
+  

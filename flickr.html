@@ -1,0 +1,37 @@
+{{ content }} {{# This tag display anything written in the content area if itis filled in#}}
+
+{{ flickr_sets:sets id= { photoset_ID }  limit="40"}} {{# Call to the photoset display loop - the photoset ID is pulled from the page yaml data set in the CP #}}
+<h1>Photos by {{ ownername }}</h1>
+
+  {{ photo }}
+    <a href="{{ url_o }}">
+	    <figure class="photo">
+	      <img src="{{ url_m }}"  title="{{ title }}" />
+	      <figcaption> {{ title }}</figcaption>
+	    </figure>
+
+	</a>
+
+	{{# This section will dump all the available image sizes that can be pulled - you pick! #}}
+	<h3>Dump of various photo sizes available with url_xx parameter </h3>
+	
+	<h4>url_sq:</h4>
+	<img src="{{ url_sq }}"  title="{{ title }}" />
+	<h4>url_t:</h4>
+	<img src="{{ url_t }}"  title="{{ title }}" />
+	<h4>url_q:</h4>
+	<img src="{{ url_q }}"  title="{{ title }}" />
+	<h4>url_s:</h4>
+	<img src="{{ url_s }}"  title="{{ title }}" />
+	<h4>url_n:</h4>
+	<img src="{{ url_n }}"  title="{{ title }}" />
+	<h4>url_m:</h4>
+	<img src="{{ url_m }}"  title="{{ title }}" />
+	<h4>url_l:</h4>
+	<img src="{{ url_l }}"  title="{{ title }}" />
+	<h4>url_o: (original size)</h4>
+	<img src="{{ url_o }}"  title="{{ title }}" />
+	<p>{{ geo }}</p> {{# should dump geo-location information if available#}}
+  {{ /photo }}
+{{ /flickr_sets:sets }}
+
