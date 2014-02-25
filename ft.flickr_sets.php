@@ -31,7 +31,7 @@ class Fieldtype_flickr_sets extends Fieldtype
 				$selected= "selected='selected'";
 			}	
 
-			$html .= "<option value='{$unit->id}'"."{$selected}".">{$unit->title->_content}</option>";
+			$html .= "<option value='{$unit->id}' "."{$selected}".">{$unit->title->_content}</option>";
 		}
 
 		$html .= "</select></div>";
