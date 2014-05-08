@@ -96,3 +96,7 @@ Note that you do not have to do anything with the *photoset_ID* field. This valu
 ## Steal this book
 
 Please take any of this code to create similar Statamic add-ons for photo-sharing services like Picasa, etc. You guys are a lot smarter than I am.
+
+## If you downloaded and used this prior to __May 8, 2014,__ be sure and update the plugins with the versions that now support secure https: calls to the Flickr API. Flickr will __no longer support non-SSL calls after June 3, 2014!__
+
+
