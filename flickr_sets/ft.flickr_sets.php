@@ -9,7 +9,7 @@ class Fieldtype_flickr_sets extends Fieldtype
 		);
 	const no_keys = null; // error code for missing API key 
 	const config_missing = "Could not get Flickr photosets, `flickr_api` key or flickr user ID wasn't set in _config/add-ons/flickr_sets/flickr_sets.yaml";
-	const url	= 'http://api.flickr.com/services/rest/?method=flickr.photosets.getList';
+	const url	= 'https://api.flickr.com/services/rest/?method=flickr.photosets.getList';
 
 	public function render()
 	{
