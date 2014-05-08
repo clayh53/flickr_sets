@@ -10,7 +10,7 @@ class Plugin_flickr_sets extends Plugin
 		);
 
 		const format = 'json&nojsoncallback=1';
-		const url	= 'http://api.flickr.com/services/rest/?method=';
+		const url	= 'https://api.flickr.com/services/rest/?method=';
 		const no_key = null; // error code for missing API key 
 		const config_missing = "Could not get Flickr photosets, `flickr_api` key  wasn't set in _config/add-ons/flickr_sets/flickr_sets.yaml";
 		
