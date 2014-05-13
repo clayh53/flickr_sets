@@ -47,7 +47,7 @@ Note that the call to the plugin uses a variable in single quotes named 'Photose
 
 ### Control Panel
 
-When a new page is created, you will see a selection for 'Flickr Gallery' as a page type. Choose that option and you will see ![Page Creation](http://www.clayharmon.com/images/Statamic_CP.png) a page creation screen that shows a dropdown selection list that contains all the photosets for the Flickr user ID that has been set in the flickr_sets.yaml file. 
+When a new page is created, you will see a selection for 'Flickr Gallery' as a page type. Choose that option and you will see ![Page Creation](http://www.clayharmon.com/img/Statamic_CP.png) a page creation screen that shows a dropdown selection list that contains all the photosets for the Flickr user ID that has been set in the flickr_sets.yaml file. 
 
 With the default template, any content entered into the content area appears *above* the gallery and can be used to embed a gallery meta-description if desired. 
 
